@@ -19,7 +19,7 @@ function init() {
   const scene = new THREE.Scene();
 
   // 第1のレンダラ
-  const nameHeight = document.getElementById("name").clientHeight;
+  const nameHeight = document.getElementById("output1").clientHeight;
   const renderer = new THREE.WebGLRenderer();
   {
     renderer.setClearColor(0x204060);
